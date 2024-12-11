@@ -1,4 +1,4 @@
-//Swap Two Numbers- Pseudo Code
+//Swap Two Numbers - Pseudo Code
 
 BEGIN
     INPUT a,b
