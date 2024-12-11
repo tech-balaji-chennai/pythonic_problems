@@ -4,5 +4,6 @@ BEGIN
     INPUT number
     IF (number < 0) THEN
         ASSIGN number = -number
+    END IF
     OUTPUT number
 END
