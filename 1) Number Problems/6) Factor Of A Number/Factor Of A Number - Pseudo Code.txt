@@ -1,0 +1,5 @@
+//Factor Of A Number - Pseudo Code
+
+BEGIN
+    //statements
+END
