@@ -1,6 +1,6 @@
-Find Positive Or Negative Number
+Find Positive Or Negative Number - Problem Statement
 
-Problem Statement
+Problem Statement:
 You will be given a number 'num'. Your task is to find Positive or Negative Number
 
 Example (Sample Input And Output):

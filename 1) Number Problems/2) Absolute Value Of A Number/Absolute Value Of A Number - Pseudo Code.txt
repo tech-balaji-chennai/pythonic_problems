@@ -1,0 +1,8 @@
+//Absolute Value Of A Number - Pseudo Code
+
+BEGIN
+    INPUT number
+    IF (number < 0) THEN
+        ASSIGN number = -number
+    OUTPUT number
+END

@@ -1,4 +1,4 @@
-#Python Program - Find Positive Or Negative Number
+#Find Positive Or Negative Number - Python Program
 
 num = int(input())
 

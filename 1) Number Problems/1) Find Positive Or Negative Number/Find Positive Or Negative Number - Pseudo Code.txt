@@ -1,4 +1,4 @@
-//Pseudo Code - Find Positive Or Negative Number
+//Find Positive Or Negative Number - Pseudo Code
 
 BEGIN
     INPUT number
