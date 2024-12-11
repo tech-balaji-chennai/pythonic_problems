@@ -1,0 +1,11 @@
+//Pseudo Code - Find Positive Or Negative Number
+
+BEGIN
+    INPUT number
+    IF (number > 0) THEN
+        OUTPUT "Positive"
+    ELSE IF (number < 0) THEN
+        OUTPUT "Negative"
+    ELSE
+        OUTPUT "Neither Positive Nor Negative"
+END
