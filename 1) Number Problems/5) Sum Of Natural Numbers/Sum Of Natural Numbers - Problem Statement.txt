@@ -1,0 +1,21 @@
+Sum Of Natural Numbers - Problem Statement
+
+Problem Statement:
+You will be given a number 'N'. Your task is to find Sum of Natural Numbers
+
+Example:
+
+input 1: 
+ 4
+output 1: 
+ 10
+
+input 2: 
+ 10
+output 2: 
+ 55 
+
+Definition:
+Natural Numbers are numbers from 1 to infinity (generally specified number N)
+Sum of natural numbers are from 1 to N
+Using Formula: sum = (N*(N+1)) / 2

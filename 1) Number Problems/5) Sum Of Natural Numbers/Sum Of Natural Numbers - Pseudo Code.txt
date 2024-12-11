@@ -1,5 +1,20 @@
 //Sum Of Natural Numbers - Pseudo Code
 
+//Logic 1
 BEGIN
-    //statements
+    INPUT number
+    INITIALIZE sum = 0
+    FOR (i = 1 TO number) DO
+        COMPUTE sum = sum + i
+    END FOR
+    OUTPUT sum
+END
+
+
+//Logic 2
+BEGIN
+    INPUT number
+    INITIALIZE sum = 0
+    COMPUTE sum = (number*(number+1)) / 2
+    OUTPUT sum
 END
