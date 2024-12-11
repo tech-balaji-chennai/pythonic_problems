@@ -16,4 +16,4 @@ output 2:
  3
 
 Definition:
-Absolute number is defined as the distance between the given number and the origin (0)
+Absolute Number is defined as the distance between the given number and the origin (0)

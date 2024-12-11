@@ -8,4 +8,5 @@ BEGIN
         OUTPUT "Negative"
     ELSE
         OUTPUT "Neither Positive Nor Negative"
+    END IF
 END
