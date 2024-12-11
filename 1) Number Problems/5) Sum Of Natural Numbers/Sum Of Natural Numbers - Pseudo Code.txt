@@ -1,0 +1,5 @@
+//Sum Of Natural Numbers - Pseudo Code
+
+BEGIN
+    //statements
+END
