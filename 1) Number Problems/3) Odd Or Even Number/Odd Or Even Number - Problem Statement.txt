@@ -1,0 +1,20 @@
+Odd Or Even Number - Problem Statement
+
+Problem Statement:
+You will be given a number 'num'. Your task is to find whether the given number is Odd or Even
+
+Example:
+
+input 1: 
+ 4
+output 1: 
+ Even
+
+input 2: 
+ 1
+output 2: 
+ Odd 
+
+Definition:
+Even Number is a number when divided by 2 leaves a remainder  0
+Odd Number is a number when divided by 2 leaves a remainder  1
