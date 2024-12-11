@@ -23,4 +23,4 @@ output 3:
 Definition:
 Positive number is defined as a number that is greater than 0
 Negative number is defined as a number that is less than 0
-Zero (Or) Neither Positive Nor Negative Number is defined as a number that is equal to 0
+Zero (Neither Positive Nor Negative Number) is defined as a number that is equal to 0
