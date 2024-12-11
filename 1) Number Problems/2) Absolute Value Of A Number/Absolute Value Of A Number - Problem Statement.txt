@@ -15,5 +15,5 @@ input 2:
 output 2: 
  3
 
-Definition (Logic):
-The absolute number is defined as the distance between the given number and the origin (0)
+Definition:
+Absolute number is defined as the distance between the given number and the origin (0)
