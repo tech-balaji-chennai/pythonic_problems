@@ -1,6 +1,5 @@
 #Sum Of Natural Numbers - Python Program
 
-
 #Logic 1
 N = int(input())
 sum = 0

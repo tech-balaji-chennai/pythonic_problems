@@ -1,0 +1,22 @@
+Factor Of A Number - Problem Statement
+
+Problem Statement:
+You will be given 2 numbers. Your task is to find whether the given number is Factor of Number
+
+Example:
+
+input 1: 
+ 10
+2
+output 1: 
+ Yes
+
+input 2: 
+ 10
+3
+output 2: 
+ No 
+
+Definition:
+Factor of a number is a number (divisor) which divides that number (dividend) completely without any remainder
+Dividend = (Divisor * Quotient) + Remainder

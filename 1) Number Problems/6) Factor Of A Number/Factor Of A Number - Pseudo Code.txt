@@ -1,5 +1,10 @@
 //Factor Of A Number - Pseudo Code
 
 BEGIN
-    //statements
+    INPUT number_1, number_2
+    IF (number_1 % number_2 == 0) THEN
+        OUTPUT "Yes"
+    ELSE
+        OUTPUT "No"
+    END IF
 END

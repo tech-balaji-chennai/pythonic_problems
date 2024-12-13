@@ -17,4 +17,5 @@ b = int(input())
 a,b = b,a
 print(a, b)
 
+
 #Logic 3 - With Using xor Operator
