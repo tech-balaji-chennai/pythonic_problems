@@ -1,0 +1,18 @@
+Split Numbers Into Digits - Problem Statement
+
+Problem Statement:
+You will be given a number 'num'. Your task is to Split Numbers Into Digits
+
+Example:
+
+input 1: 
+ 12
+output 1: 
+ 2 1
+
+input 2: 
+ 123
+output 2: 
+ 3 2 1
+
+Definition:
