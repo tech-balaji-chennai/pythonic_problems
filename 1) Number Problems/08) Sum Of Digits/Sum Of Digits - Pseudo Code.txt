@@ -1,12 +1,12 @@
 //Sum Of Digits - Pseudo Code
 
 BEGIN
-    INPUT number
-    ASSIGN mod = 0, sum = 0
-    WHILE (number > 0) DO
-        COMPUTE mod = number % 10
-        COMPUTE sum = sum + mod
-        COMPUTE number = number / 10
+    INPUT num
+    ASSIGN digit = 0, sum = 0
+    WHILE (num > 0) DO
+        COMPUTE digit = num % 10
+        COMPUTE sum = sum + digit
+        COMPUTE num = num / 10
     END WHILE
     OUTPUT sum
 END
