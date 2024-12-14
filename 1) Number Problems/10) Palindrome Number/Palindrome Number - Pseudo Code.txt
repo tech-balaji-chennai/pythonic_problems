@@ -1,12 +1,12 @@
 //Palindrome Number - Pseudo Code
 
 BEGIN
-    INPUT number
-    ASSIGN mod = 0, orig = number, rev = 0
-    WHILE (number > 0) DO
-        COMPUTE mod = number % 10
-        COMPUTE rev = (rev * 10) + mod
-        COMPUTE number = number / 10
+    INPUT num
+    ASSIGN digit = 0, orig = num, rev = 0
+    WHILE (num > 0) DO
+        COMPUTE digit = num % 10
+        COMPUTE rev = (rev * 10) + digit
+        COMPUTE num = num / 10
     END WHILE
     IF (rev == orig) THEN
         OUTPUT "Palindrome"

@@ -16,4 +16,4 @@ output 2:
  Not Palindrome 
 
 Definition:
-Palindrome Number is the reverse number which is equal to the original number
+Palindrome Number is the reverse number 'rev' which is equal to the original number 'orig'
