@@ -2,8 +2,8 @@
 
 //Logic 1
 BEGIN
-    INPUT number
-    IF (number % 2 == 0) THEN
+    INPUT num
+    IF (num % 2 == 0) THEN
         OUTPUT "Even"
     ELSE
         OUTPUT "Odd"
@@ -13,8 +13,8 @@ END
 
 //Logic 2
 BEGIN
-    INPUT number
-    IF (number % 2 == 1) THEN
+    INPUT num
+    IF (num % 2 == 1) THEN
         OUTPUT "Odd"
     ELSE
         OUTPUT "Even"
