@@ -18,7 +18,7 @@ output 2:
  Not Factor 
 
 Definition:
-Factor of a number is a number (divisor) which divides that number (dividend) completely without any remainder
+Factor of a number is a number (divisor) which divides that number (dividend) completely without any remainder (remainder = 0)
 Factor = num_1 mod num_2 = 0
 Dividend = (Divisor * Quotient) + Remainder
 Note: num_1 is dividend, num_2 is divisor (if it is factor)
