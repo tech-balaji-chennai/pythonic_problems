@@ -1,11 +1,11 @@
 //Split Numbers Into Digits - Pseudo Code
 
 BEGIN
-    INPUT number
-    ASSIGN mod = 0
-    WHILE (number > 0) DO
-        COMPUTE mod = number % 10
-        OUTPUT mod
-        COMPUTE number = number / 10
+    INPUT num
+    ASSIGN digit = 0
+    WHILE (num > 0) DO
+        COMPUTE mod = num % 10
+        OUTPUT digit
+        COMPUTE num = num / 10
     END WHILE
 END
