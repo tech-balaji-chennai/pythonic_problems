@@ -7,15 +7,15 @@ Example:
 
 input 1: 
  10
-2
+ 2
 output 1: 
- Yes
+ Factor
 
 input 2: 
  10
-3
+ 3
 output 2: 
- No 
+ Not Factor 
 
 Definition:
 Factor of a number is a number (divisor) which divides that number (dividend) completely without any remainder
