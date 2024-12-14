@@ -4,6 +4,6 @@ N = int(input())
 X = int(input())
 
 if (N % X == 0):
-    print("Yes")
+    print("Factor")
 else:
-    print("No")
+    print("Not Factor")
