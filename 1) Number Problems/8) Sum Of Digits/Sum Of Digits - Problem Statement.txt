@@ -1,0 +1,18 @@
+Sum Of Digits - Problem Statement
+
+Problem Statement:
+You will be given a number 'num'. Your task is to find the Sum Of Digits of 'num'.
+
+Example:
+
+input 1: 
+ 12
+output 1: 
+ 3
+
+input 2: 
+ 345
+output 2: 
+ 12
+
+Definition:
