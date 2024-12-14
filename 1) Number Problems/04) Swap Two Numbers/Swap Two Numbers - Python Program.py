@@ -3,6 +3,7 @@
 #Logic 1 - With Using Temporary Variable
 a = int(input())
 b = int(input())
+temp = 0
 
 temp = a
 a = b
