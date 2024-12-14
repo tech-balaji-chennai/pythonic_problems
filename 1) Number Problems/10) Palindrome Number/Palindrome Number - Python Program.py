@@ -13,4 +13,4 @@ while (num > 0):
 if (rev == orig):
     print("Palindrome")
 else:
-    print("Not Palindrome");
+    print("Not Palindrome")
