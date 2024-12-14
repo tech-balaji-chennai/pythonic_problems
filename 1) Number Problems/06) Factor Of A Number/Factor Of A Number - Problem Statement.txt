@@ -1,7 +1,7 @@
 Factor Of A Number - Problem Statement
 
 Problem Statement:
-You will be given 2 numbers. Your task is to find whether the given number is Factor of Number
+You will be given 2 numbers 'num_1', 'num_2'. Your task is to find whether the given number is Factor of Number
 
 Example:
 
@@ -19,4 +19,6 @@ output 2:
 
 Definition:
 Factor of a number is a number (divisor) which divides that number (dividend) completely without any remainder
+Factor = num_1 mod num_2 = 0
 Dividend = (Divisor * Quotient) + Remainder
+Note: num_1 is dividend, num_2 is divisor (if it is factor)
