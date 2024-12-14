@@ -1,0 +1,18 @@
+Reverse A Number - Problem Statement
+
+Problem Statement:
+You will be given a number 'num'. Your task is to find the reverse of 'num'.
+
+Example:
+
+input 1: 
+ 451
+output 1: 
+ 154
+
+input 2: 
+ 300
+output 2: 
+ 3 
+
+Definition:
