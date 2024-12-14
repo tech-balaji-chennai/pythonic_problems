@@ -1,5 +1,16 @@
 //Palindrome Number - Pseudo Code
 
 BEGIN
-    //statements
+    INPUT number
+    ASSIGN mod = 0, orig = number, rev = 0
+    WHILE (number > 0) DO
+        COMPUTE mod = number % 10
+        COMPUTE rev = (rev * 10) + mod
+        COMPUTE number = number / 10
+    END WHILE
+    IF (rev == orig) THEN
+        OUTPUT "Palindrome"
+    ELSE
+        OUTPUT "Not Palindrome"
+    END IF
 END
