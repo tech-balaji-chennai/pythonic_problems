@@ -4,5 +4,5 @@ num = int(input())
 
 while (num > 0):
     mod = num % 10
-    print(int(mod))
+    print(mod)
     num = num // 10

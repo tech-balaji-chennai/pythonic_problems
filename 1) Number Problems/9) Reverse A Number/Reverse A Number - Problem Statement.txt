@@ -16,3 +16,4 @@ output 2:
  3 
 
 Definition:
+Reverse Number (Or) Mirror Number is a number obtained by reversing the digits of original number (from right to left) (changing its order)
