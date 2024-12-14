@@ -16,3 +16,8 @@ output 2:
  3 2 1
 
 Definition:
+To get last digit of a number, use modulo operation to get its remainder (face value (or) digit of that position)
+digit = number % 10
+To remove last digit of a number, use division operation to get its quotient
+remaining number = number / 10
+Note: Since decimal number system, modulo and division operations have divisor = 10

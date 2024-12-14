@@ -16,3 +16,4 @@ output 2:
  12
 
 Definition:
+To get sum of digits of a number, split the digits from the last position (last digit in each iteration) and add it to sum variable and remove last digit of a number
