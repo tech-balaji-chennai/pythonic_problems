@@ -1,9 +1,9 @@
 #Factor Of A Number - Python Program
 
-N = int(input())
-X = int(input())
+num_1 = int(input())
+num_2 = int(input())
 
-if (N % X == 0):
+if (num_1 % num_2 == 0):
     print("Factor")
 else:
     print("Not Factor")
