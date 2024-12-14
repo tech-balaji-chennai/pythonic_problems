@@ -2,9 +2,9 @@
 
 //Logic 1
 BEGIN
-    INPUT number
+    INPUT num
     INITIALIZE sum = 0
-    FOR (i = 1 TO number) DO
+    FOR (i = 1 TO num) DO
         COMPUTE sum = sum + i
     END FOR
     OUTPUT sum
@@ -13,8 +13,8 @@ END
 
 //Logic 2
 BEGIN
-    INPUT number
+    INPUT num
     INITIALIZE sum = 0
-    COMPUTE sum = (number*(number+1)) / 2
+    COMPUTE sum = (num*(num+1)) / 2
     OUTPUT sum
 END
