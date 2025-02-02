@@ -1,0 +1,20 @@
+//Prime Number - Pseudo Code
+
+BEGIN
+    INPUT num
+    IF (num < 2) THEN
+        OUTPUT "Not Prime Number"
+    ELSE
+        INITIALIZE flag = 0
+        FOR (i = 2 TO num-1) DO
+            IF (num % i == 0) THEN
+            SET flag = 1
+            BREAK
+        END FOR
+        IF (flag == 0) THEN
+            OUTPUT "Prime Number"
+        ELSE
+            OUTPUT "Not Prime Number"
+        END IF
+    END IF
+END
