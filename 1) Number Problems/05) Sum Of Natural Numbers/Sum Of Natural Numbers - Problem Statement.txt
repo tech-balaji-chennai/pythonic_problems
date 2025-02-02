@@ -17,5 +17,5 @@ output 2:
 
 Definition:
 Natural Numbers are numbers from 1 to infinity (generally specified number 'N' (or) 'num')
-Sum of natural numbers are from 1 to N
+Sum of natural numbers are from 1 to N (i.e.) 1,2,3,...,N
 Using Formula: sum = (N*(N+1)) / 2
