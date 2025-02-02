@@ -2,7 +2,8 @@
 
 BEGIN
     INPUT num
-    ASSIGN digit = 0, orig = num, rev = 0
+    INITIALIZE digit = 0, rev = 0
+    ASSIGN orig = num
     WHILE (num > 0) DO
         COMPUTE digit = num % 10
         COMPUTE rev = (rev * 10) + digit

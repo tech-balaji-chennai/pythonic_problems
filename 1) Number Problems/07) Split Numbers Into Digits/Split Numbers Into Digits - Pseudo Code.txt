@@ -2,7 +2,7 @@
 
 BEGIN
     INPUT num
-    ASSIGN digit = 0
+    INITIALIZE digit = 0
     WHILE (num > 0) DO
         COMPUTE mod = num % 10
         OUTPUT digit

@@ -2,7 +2,7 @@
 
 BEGIN
     INPUT num
-    ASSIGN digit = 0, sum = 0
+    INITIALIZE digit = 0, sum = 0
     WHILE (num > 0) DO
         COMPUTE digit = num % 10
         COMPUTE sum = sum + digit

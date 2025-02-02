@@ -1,0 +1,17 @@
+//Armstrong Number - Pseudo Code
+
+BEGIN
+    INPUT num
+    INITIALIZE result = 0
+    ASSIGN orig = num
+    WHILE (num == 0) DO
+        COMPUTE digit = num % 10
+        COMPUTE result = result + (digit * digit * digit)
+        COMPUTE num = num / 10
+    END WHILE
+    IF (result == orig) THEN
+        OUTPUT "Armstrong Number"
+    ELSE
+        OUTPUT "Not Armstrong Number"
+    END IF
+END
