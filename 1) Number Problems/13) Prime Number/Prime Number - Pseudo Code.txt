@@ -10,6 +10,7 @@ BEGIN
             IF (num % i == 0) THEN
                 SET flag = 1
                 BREAK
+            END IF
         END FOR
         IF (flag == 0) THEN
             OUTPUT "Prime Number"
