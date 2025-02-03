@@ -8,8 +8,8 @@ BEGIN
         INITIALIZE flag = 0
         FOR (i = 2 TO num-1) DO
             IF (num % i == 0) THEN
-            SET flag = 1
-            BREAK
+                SET flag = 1
+                BREAK
         END FOR
         IF (flag == 0) THEN
             OUTPUT "Prime Number"
