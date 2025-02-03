@@ -8,12 +8,12 @@ Example:
 input 1: 
  28
 output 1: 
- Yes
+ Perfect Number
 
 input 2: 
  100
 output 2: 
- No
+ Not Perfect Number
  
 Definition:
 Perfect number is a number if it is equal to the sum of its positive proper divisors excluding the number itself.

@@ -8,12 +8,12 @@ Example:
 input 1: 
  153
 output 1: 
- Armstrong number
+ Armstrong Number
 
 input 2: 
  321
 output 2: 
- Not Armstrong number 
+ Not Armstrong Number 
 
 Definition:
 Sum of cubes of individual digits of a given number equals the original number itself.

@@ -1,0 +1,22 @@
+//Happy Number - Pseudo Code
+
+BEGIN
+    INPUT n
+    INITIALIZE digit = 0, visit = hashtable, result = 0
+    WHILE (n NOT IN visit) DO
+        ADD n TO visit
+	SET result = 0
+        WHILE (n > 0) DO
+            COMPUTE digit = n % 10
+            COMPUTE result = result + (digit * digit)
+            COMPUTE n = n / 10
+        END WHILE
+        UPDATE n = result
+        IF (n == 1) THEN
+            OUTPUT "Happy Number"
+            BREAK
+        END IF
+    ELSE
+        OUTPUT "Not Happy Number"
+    END WHILE
+END

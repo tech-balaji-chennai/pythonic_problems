@@ -1,0 +1,21 @@
+Happy Number - Problem Statement
+
+Problem Statement:
+You will be given a number 'num'. Your task is to check whether 'num' is a happy number or not.
+
+Example:
+
+input 1: 
+ 19
+output 1: 
+ Happy Number
+
+input 2: 
+ 100
+output 2: 
+ Not Happy Number
+ 
+Definition:
+If a number leads to 1 after a sequence of steps, then it is a happy number.
+In each step, number is replaced by the sum of squares of its digit.
+If the same number occurs again (makes a loop in its sequence of steps), then it is not a happy number.
