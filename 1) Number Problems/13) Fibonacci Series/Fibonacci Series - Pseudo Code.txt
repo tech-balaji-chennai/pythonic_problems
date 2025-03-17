@@ -1,9 +1,9 @@
 //Fibonacci Series - Pseudo Code
 
 BEGIN
-    INPUT num
-    INITIALIZE a = 0, b = 1
-    FOR (i = 1 TO num) DO
+    INPUT N
+    INITIALIZE a = 0, b = 1, c = 0
+    FOR (i = 1 TO N) DO
         OUTPUT a
         COMPUTE c = a + b
         ASSIGN a = b, b = c

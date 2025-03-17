@@ -1,7 +1,7 @@
 Happy Number - Problem Statement
 
 Problem Statement:
-You will be given a number 'num'. Your task is to check whether 'num' is a happy number or not.
+You will be given a number 'N'. Your task is to check whether 'N' is a happy number or not.
 
 Example:
 

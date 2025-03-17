@@ -1,0 +1,20 @@
+//Prime Series - Pseudo Code
+
+BEGIN
+    IMPORT mathematical_library
+    INPUT N
+    FOR (i = 2 TO N) DO //i is loop iterator for candidate numbers
+        INITIALIZE f = 0 //f is flag variable to indicate primality
+    //Trial Division Method
+    root = integer_function(mathematical_library.square_root_function(i)) //integer_function(mathematical_library.power_function(i, 0.5)) //integer_function(i**0.5)
+    FOR (j = 2 TO root) DO //j is loop iterator for checking factors 
+        //Checking Composite Numbers By Dividing The Given Number By 2, 3, 4, ... Upto The Given Number Itself
+        IF (i % j == 0) THEN
+            SET f = 1
+            BREAK
+        END IF
+    END FOR
+    IF (f == 0) THEN
+        OUTPUT i
+    END IF
+END

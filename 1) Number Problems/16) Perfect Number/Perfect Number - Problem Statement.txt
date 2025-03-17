@@ -1,7 +1,7 @@
 Perfect Number - Problem Statement
 
 Problem Statement:
-You will be given a number 'n'. Your task is to check whether 'n' is a perfect number or not.
+You will be given a number 'N'. Your task is to check whether 'N' is a perfect number or not.
 
 Example:
 
@@ -17,5 +17,5 @@ output 2:
  
 Definition:
 Perfect number is a number if it is equal to the sum of its positive proper divisors excluding the number itself.
-No need to check all positive numbers less than n for divisor of n.
-Use Pad Factor's Method: To check all the numbers less than or equal to square root of number.
+No need to check all positive numbers less than N for factors (or) divisibility of N.
+Use Square Root Factorization Method: To find factors of N by all the numbers from 1 to sqrt(N).

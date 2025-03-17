@@ -1,7 +1,7 @@
 Fibonacci Series - Problem Statement
 
 Problem Statement:
-You will be given a positive integer 'n'. Your task is to print the first 'n' terms of the Fibonacci Series.
+You will be given a positive integer 'N'. Your task is to print the first 'N' terms of the Fibonacci Series.
 
 Example:
 
@@ -17,5 +17,5 @@ output 2:
 
 Definition:
 Fibonacci series is the sequence of numbers where each number is the sum of the 2 preceding numbers.
-fib(n) = 0,1,1,2,3,5,8,13,21,34,55,...
-Using Formula: fib(n) = fib(n-1) + fib(n-1)
+Fibonacci series from 0 to N (i.e.) fib(N) = 0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,...,N
+Using Formula: fib(N) = fib(N-1) + fib(N-2)

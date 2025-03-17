@@ -1,0 +1,28 @@
+Fibonacci Number - Problem Statement
+
+Problem Statement:
+You will be given a number 'N'. Your task is to find whether given number is Fibonacci Number Or Not.
+
+Example:
+
+input 1: 
+ 5
+output 1: 
+ Fibonacci Number
+
+input 2: 
+ 4
+output 2: 
+ Not Fibonacci Number
+
+Definition:
+A Fibonacci number is a number which is the sum of the 2 preceding numbers.
+It belongs to the Fibonacci series fib(N) = 0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,...,N (Using Formula: fib(N) = fib(N-1) + fib(N-2))
+Generate Fibonacci series for given number and compare given number with Nth Fibonacci number in the Fibonacci series
+Using Formula: A number is a Fibonacci number if any 1 of the following equations must be a perfect square (derived from Binet's Fibonacci Formula):
+i) 5N**2 + 4
+ii) 5N**2 - 4
+Ex: N = 5
+i) 5(5)**2 + 4 = 5(25) + 4 = 125 + 4 = 129 (perfect square since sqrt(129) = 11.3578 is not an integer)
+ii) 5(5)**2 - 4 = 5(25) - 4 = 125 - 4 = 121 (perfect square since sqrt(121) = 11 is an integer)
+Since 2nd equation is true, 5 is a Fibonacci number

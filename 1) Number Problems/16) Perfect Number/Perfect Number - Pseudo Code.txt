@@ -2,19 +2,19 @@
 
 BEGIN
     IMPORT mathematical_library
-    INPUT n
+    INPUT N
     ASSIGN result = 1
-    COMPUTE root = mathematical_library.square_root_function(n)
+    COMPUTE root = integer_function(mathematical_library.square_root_function(N)) //COMPUTE root = integer_function(mathematical_library.power_function(N, 0.5))
     FOR (i = 2 TO root+1) DO
-        IF (n % i == 0) THEN
-            IF (n / i == i) THEN
+        IF (N % i == 0) THEN
+            IF (N / i == i) THEN
                 COMPUTE result = result + i
             ELSE
-                COMPUTE result = result + i + (n / i)
+                COMPUTE result = result + i + (N / i)
             END IF
         END IF
     END FOR
-    IF (result == n) THEN
+    IF (result == N) THEN
         OUTPUT "Perfect Number"
     ELSE
         OUTPUT "Not Perfect Number"

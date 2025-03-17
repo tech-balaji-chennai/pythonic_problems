@@ -1,12 +1,13 @@
 //Armstrong Number - Pseudo Code
 
 BEGIN
+    //IMPORT mathematical_library
     INPUT num
     INITIALIZE result = 0
     ASSIGN orig = num
     WHILE (num == 0) DO
         COMPUTE digit = num % 10
-        COMPUTE result = result + (digit * digit * digit)
+        COMPUTE result = result + (digit * digit * digit) //COMPUTE result = result + (mathematical_library.power_function(digit, 3)) //COMPUTE result = result + (digit ** 3)
         COMPUTE num = num / 10
     END WHILE
     IF (result == orig) THEN
