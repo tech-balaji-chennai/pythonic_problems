@@ -1,0 +1,30 @@
+//Remove Duplicates From The Sorted Array - Pseudo Code
+
+BEGIN
+    FUNCTION rm_duplicates(array_name, array_size)
+        IF (array_size == 0) OR (array_size == 1) THEN
+            RETURN array_size
+        END IF
+        INITIALIZE new_length = 0
+        FOR (index = 0 TO array_size-2) DO
+            IF (array_name[index] != array_name[index+1]) THEN
+                ASSIGN array_name[new_length] = array_name[index]
+                INCREMENT new_length = new_length+1
+            END IF
+        END FOR
+        array_name[new_length] = array_name[array_size-1]
+        INCREMENT new_length = new_length+1
+        RETURN new_length
+    END FUNCTION
+    
+    FUNCTION main()
+        INPUT N
+        IF (N == 0) THEN
+            ASSIGN array_name = [] //empty array
+        ELSE
+            INPUT array_name //Enter comma-separated values
+        END IF
+        ASSIGN result = CALL rm_duplicates(array_name, N)
+        OUTPUT result
+    END FUNCTION
+END
