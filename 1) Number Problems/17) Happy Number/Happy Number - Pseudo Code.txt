@@ -3,7 +3,7 @@
 BEGIN
     IMPORT mathematical_library
     INPUT N
-    INITIALIZE digit = 0, visit = hashtable, result = 0
+    INITIALIZE digit = 0, visit = hashset, result = 0 //creating visit set as hashset (like set)
     WHILE (N NOT IN visit) DO
         //adding resulting number to 'visit' set during the beginning of every iteration
         ADD N TO visit
