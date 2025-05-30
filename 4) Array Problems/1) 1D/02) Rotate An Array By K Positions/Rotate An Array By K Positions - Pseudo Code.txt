@@ -11,8 +11,8 @@ BEGIN
     END FUNCTION
     
     FUNCTION array_rotate_1(array_name, array_size, rotation_count) //array_rotate_1 since logic 1
-        IF (array_size == 0) THEN
-            RETURN array
+        IF ((array_size == 0) OR (array_size == 1)) THEN
+            RETURN array_name
         END IF
         FOR (i = 1 TO rotation_count+1) DO
             CALL right_rotate(array_name, array_size)
@@ -20,8 +20,8 @@ BEGIN
     END FUNCTION
     
     FUNCTION main()
-        INPUT N
-        IF (N == 0) THEN
+        INPUT array_size
+        IF (array_size == 0) THEN
             ASSIGN array_name = [] //empty array
         ELSE
             INPUT array_name //Enter comma-separated values
@@ -47,8 +47,8 @@ BEGIN
     END FUNCTION
     
     FUNCTION array_rotate_2(array_name, array_size, rotation_count) //array_rotate_2 since logic 2
-        IF (array_size == 0) THEN
-            RETURN array
+        IF ((array_size == 0) OR (array_size == 1)) THEN
+            RETURN array_name
         END IF
         CALL reverse(array_name, 0, array_size - rotation_count - 1)
         CALL reverse(array_name, array_size - rotation_count, array_size - 1)
@@ -57,8 +57,8 @@ BEGIN
     END FUNCTION
     
     FUNCTION main()
-        INPUT N
-        IF (N == 0) THEN
+        INPUT array_size
+        IF (array_size == 0) THEN
             ASSIGN array_name = [] //empty array
         ELSE
             INPUT array_name //Enter comma-separated values

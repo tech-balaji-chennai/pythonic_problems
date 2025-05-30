@@ -10,7 +10,7 @@ def right_rotate(arr, n):
     arr[0] = temp
 
 def array_rotate_1(arr, n, k):
-    if (n == 0):
+    if ((n == 0) or (n == 1)):
         return arr
     
     for i in range(1, k+1):

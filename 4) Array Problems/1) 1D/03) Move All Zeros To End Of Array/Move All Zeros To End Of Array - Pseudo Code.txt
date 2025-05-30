@@ -1,0 +1,108 @@
+//Move All Zeros To End Of Array - Pseudo Code
+
+//Logic 1 - Naive Approach Using Temporary Array
+BEGIN
+    FUNCTION move_zeros_to_end_1(array_name, array_size) //move_zeros_to_end_1 since logic 1
+        IF ((array_size == 0) OR (array_size == 1)) THEN
+            RETURN array_name
+        END IF
+        //creating temporary array 'temp'
+        INITIALIZE temp_array = array
+        FOR (i = 0 TO array_size-1) DO
+            temp_array[i] = NULL
+        END FOR
+        //keeping track of the index in temp array
+        INITIALIZE index_j = 0
+        //copying non-zero elements to temp array
+        FOR (i = 0 TO array_size-1) DO
+            IF (array_name[i] != 0) THEN
+                ASSIGN temp_array[index_j] = array_name[i]
+                INCREMENT index_j = index_j + 1
+            END IF
+        END FOR
+        //filling remaining positions in temp array with zeros (0)
+        FOR (i = index_j TO array_size-1) DO
+            array_name[i] = 0
+        END FOR
+        //copying all the elements from temp array to original array
+        FOR (i = 0 TO array_size-1) DO
+            ASSIGN array_name[i] = temp_array[i]
+        END FOR
+        RETURN array_name
+    END FUNCTION
+    
+    FUNCTION main()
+        INPUT array_size
+        IF (array_size == 0) THEN
+            ASSIGN array_name = [] //empty array
+        ELSE
+            INPUT array_name //Enter comma-separated values
+        END IF
+        ASSIGN result = CALL move_zeros_to_end_1(array_name, array_size)
+        OUTPUT result
+    END FUNCTION
+END
+
+//Logic 2 - Two Traversals
+BEGIN
+    FUNCTION move_zeros_to_end_2(array_name, array_size) //move_zeros_to_end_1 since logic 1
+        IF ((array_size == 0) OR (array_size == 1)) THEN
+            RETURN array_name
+        END IF
+        //keeping track of count of non-zero elements
+        INITIALIZE count = 0
+        //replacing element at index 'count' with element if it is non-zero and incrementing count
+        FOR (i = 0 TO array_size-1) DO
+            IF (array_name[i] != 0) THEN
+                ASSIGN array_name[count] = array_name[i]
+                INCREMENT count = count+1
+            END IF
+        END FOR
+        //filling remaining positions in array with zeros (0)
+        FOR (i = count TO array_size-1) DO
+            ASSIGN array_name[i] = 0
+        END FOR
+        RETURN array_name
+    
+    FUNCTION main()
+        INPUT array_size
+        IF (array_size == 0) THEN
+            ASSIGN array_name = [] //empty array
+        ELSE
+            INPUT array_name //Enter comma-separated values
+        END IF
+        ASSIGN result = CALL move_zeros_to_end_2(array_name, array_size)
+        OUTPUT result
+    END FUNCTION
+END
+
+
+//Logic 3 - Expected Approach Using One Traversal (Swapping)
+BEGIN
+    FUNCTION move_zeros_to_end_3(array_name, array_size) //move_zeros_to_end_1 since logic 1
+        IF ((array_size == 0) OR (array_size == 1)) THEN
+            RETURN array_name
+        END IF
+        //pointer that keeping track of position of non-zero elements
+        INITIALIZE count = 0
+        //replacing element at index 'count' with element if it is non-zero and incrementing count
+        FOR (i = 0 TO array_size-1) DO
+            IF (array_name[i] != 0) THEN
+                CALL swap_function(array_name[i], array_name[count]
+                INCREMENT count = count+1
+            END IF
+        END FOR
+        RETURN array_name
+    END FUNCTION
+    
+    FUNCTION main()
+        INPUT array_size
+        IF (array_size == 0) THEN
+            ASSIGN array_name = [] //empty array
+        ELSE
+            INPUT array_name //Enter comma-separated values
+        END IF
+        ASSIGN result = CALL move_zeros_to_end_3(array_name, array_size)
+        OUTPUT result
+    END FUNCTION
+END

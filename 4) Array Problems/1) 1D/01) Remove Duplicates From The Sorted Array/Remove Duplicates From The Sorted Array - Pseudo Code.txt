@@ -1,8 +1,8 @@
 //Remove Duplicates From The Sorted Array - Pseudo Code
 
 BEGIN
-    FUNCTION rm_duplicates(array_name, array_size)
-        IF (array_size == 0) OR (array_size == 1) THEN
+    FUNCTION remove_duplicates(array_name, array_size)
+        IF ((array_size == 0) OR (array_size == 1)) THEN
             RETURN array_size
         END IF
         INITIALIZE new_length = 0
@@ -18,13 +18,13 @@ BEGIN
     END FUNCTION
     
     FUNCTION main()
-        INPUT N
-        IF (N == 0) THEN
+        INPUT array_size
+        IF (array_size == 0) THEN
             ASSIGN array_name = [] //empty array
         ELSE
             INPUT array_name //Enter comma-separated values
         END IF
-        ASSIGN result = CALL rm_duplicates(array_name, N)
+        ASSIGN result = CALL remove_duplicates(array_name, array_size)
         OUTPUT result
     END FUNCTION
 END

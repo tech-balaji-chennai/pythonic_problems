@@ -1,0 +1,24 @@
+Move All Zeros To End Of Array - Problem Statement
+
+Implement the function move_zeros_to_end(int[] arr, int n) which takes two arguments
+
+arr[] - array
+n     - size of the array
+
+Your task is to move (push) all zeros to end of given array
+
+Example:
+
+input 1: 
+n = 8
+arr[] = [4,5,0,1,9,0,5,0]
+output 1: 
+[4,5,1,9,5,0,0,0]
+
+input 2: 
+n = 6
+arr[] = [6,0,1,8,0,2]
+output 2: 
+[6,1,8,2,0,0]
+
+Definition:
