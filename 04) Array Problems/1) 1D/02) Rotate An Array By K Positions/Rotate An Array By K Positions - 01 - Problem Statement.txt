@@ -1,0 +1,39 @@
+Rotate An Array By K Positions - 01 - Problem Statement
+
+1) Description:
+Implement the function arrayRotate(int[] arr, int n, int k) which takes two arguments
+
+arr[] - array
+n     - size of the array
+k     - no of positions to rotate an array
+
+Your task is to rotate the given array by k positions.
+
+2) Specification (I/O Format):
+
+i) Input Format:
+First line contains a single integer n
+Second line contains n comma-separated integers arr[]
+Third line contains a single integer k
+
+ii) Output Format:
+Display the array for the given input
+
+3) Example (Sample Test Cases):
+
+i) Sample Input 1:
+ 5
+ 1,2,3,4,5
+ 1
+ii) Sample Output 1:
+ [5,1,2,3,4]
+
+i) Sample Input 2:
+ 5
+ 1,2,3,4,5
+ 2
+ii) Sample Output 2:
+ [4,5,1,2,3]
+
+4) Definition:
+

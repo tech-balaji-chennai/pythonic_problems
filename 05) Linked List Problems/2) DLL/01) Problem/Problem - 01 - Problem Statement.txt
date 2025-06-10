@@ -1,0 +1,27 @@
+Problem - 01 - Problem Statement
+
+1) Description:
+
+
+2) Specification (I/O Format):
+
+i) Input Format:
+
+
+ii) Output Format:
+
+
+3) Example (Sample Test Cases):
+
+i) Sample Input 1:
+
+ii) Sample Output 1:
+
+
+i) Sample Input 2:
+
+ii) Sample Output 2:
+
+
+4) Definition:
+

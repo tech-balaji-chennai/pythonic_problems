@@ -1,0 +1,28 @@
+//Happy Number - 04 - Solution Pseudo Code
+
+BEGIN
+    IMPORT mathematical_library
+    INPUT N
+    INITIALIZE digit = 0, visit = hashset, result = 0 //creating visit set as hashset (like set) to track unique elements
+    WHILE (N NOT IN visit) DO
+        //adding resulting number to 'visit' set during the beginning of every iteration
+        ADD N TO visit
+        //OUTPUT visit
+        //result is initialized to 0 at first, then it is resetted to 0 at the beginning of every iteration
+	SET result = 0
+        //finding sum of squares of all digits of resulting number
+        WHILE (N > 0) DO
+            COMPUTE digit = N % 10
+            COMPUTE result = result + (digit * digit) //COMPUTE result = result + (mathematical_library.power_function(digit, 2)) //COMPUTE result = result + (digit ** 2)
+            COMPUTE N = N / 10
+        END WHILE
+        //updating n with resulting number for next iteration
+        UPDATE N = result
+        IF (N == 1) THEN
+            OUTPUT "Happy Number"
+            BREAK
+        END IF
+    ELSE
+        OUTPUT "Not Happy Number"
+    END WHILE
+END

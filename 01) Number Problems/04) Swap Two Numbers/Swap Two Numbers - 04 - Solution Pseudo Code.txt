@@ -1,0 +1,14 @@
+//Swap Two Numbers - 04 - Solution Pseudo Code
+
+//Logic 1
+BEGIN
+    INPUT a,b
+    INITIALIZE temp = 0
+    ASSIGN temp = a
+    ASSIGN a = b
+    ASSIGN b = temp
+    OUTPUT a,b
+END
+
+
+//Logic 2

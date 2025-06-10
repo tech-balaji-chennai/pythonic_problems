@@ -1,5 +1,0 @@
-//Pseudo Code - Display Hello World
-
-BEGIN
-    OUTPUT "Hello World"
-END

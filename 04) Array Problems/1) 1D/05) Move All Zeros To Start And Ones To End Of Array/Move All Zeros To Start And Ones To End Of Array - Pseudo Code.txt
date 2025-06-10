@@ -1,5 +1,0 @@
-//Move All Zeros To Start And Ones To End Of Array - Pseudo Code
-
-BEGIN
-    //statements
-END

@@ -1,0 +1,35 @@
+Move All Zeros To Start Of Array - 01 - Problem Statement
+
+1) Description:
+Implement the function move_zeros_to_start(int[] arr, int n) which takes two arguments
+
+arr[] - array
+n     - size of the array
+
+Your task is to move (push) all zeros to start of given array
+
+2) Specification (I/O Format):
+
+i) Input Format:
+First line contains a single integer n
+Second line contains n comma-separated integers arr[]
+
+ii) Output Format:
+Display the array for the given input
+
+3) Example (Sample Test Cases):
+
+i) Sample Input 1:
+ 8
+ 4,5,0,1,9,0,5,0
+ii) Sample Output 1:
+ [0,0,0,4,5,1,9,5]
+
+i) Sample Input 2:
+ 6
+ 6,0,1,8,0,2
+ii) Sample Output 2:
+ [0,0,6,1,8,2]
+
+4) Definition:
+

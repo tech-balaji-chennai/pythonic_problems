@@ -1,0 +1,31 @@
+Reverse Individual Words - 01 - Problem Statement
+
+1) Description:
+Implement the function void reverse_words(char str[]) which takes one argument.
+
+str - Input String
+
+Your task is to reverse the individual words of the given string.
+
+2) Specification (I/O Format):
+
+i) Input Format:
+A single string str
+
+ii) Output Format:
+Display the string for the given input
+
+3) Example (Sample Test Cases):
+
+i) Sample Input 1:
+ Programming is an Art
+ii) Sample Output 1:
+ gnimmargorP si na trA
+
+i) Sample Input 2:
+ Welcome to Log2Base2
+ii) Sample Output 2:
+ emocleW ot 2esaB2goL
+
+4) Definition:
+

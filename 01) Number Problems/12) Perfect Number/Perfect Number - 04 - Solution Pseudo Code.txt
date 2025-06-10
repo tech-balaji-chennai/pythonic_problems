@@ -1,0 +1,22 @@
+//Perfect Number - 04 - Solution Pseudo Code
+
+BEGIN
+    IMPORT mathematical_library
+    INPUT N
+    ASSIGN result = 1
+    COMPUTE root = integer_function(mathematical_library.square_root_function(N)) //COMPUTE root = integer_function(mathematical_library.power_function(N, 0.5))
+    FOR (i = 2 TO root+1) DO
+        IF (N % i == 0) THEN
+            IF (N / i == i) THEN
+                COMPUTE result = result + i
+            ELSE
+                COMPUTE result = result + i + (N / i)
+            END IF
+        END IF
+    END FOR
+    IF (result == N) THEN
+        OUTPUT "Perfect Number"
+    ELSE
+        OUTPUT "Not Perfect Number"
+    END IF
+END

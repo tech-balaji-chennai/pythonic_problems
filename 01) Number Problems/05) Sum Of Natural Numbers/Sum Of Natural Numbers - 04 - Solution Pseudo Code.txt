@@ -1,0 +1,20 @@
+//Sum Of Natural Numbers - 04 - Solution Pseudo Code
+
+//Logic 1
+BEGIN
+    INPUT N
+    INITIALIZE sum = 0
+    FOR (i = 1 TO N) DO
+        COMPUTE sum = sum + i
+    END FOR
+    OUTPUT sum
+END
+
+
+//Logic 2
+BEGIN
+    INPUT N
+    INITIALIZE sum = 0
+    COMPUTE sum = (N*(N+1)) / 2
+    OUTPUT sum
+END

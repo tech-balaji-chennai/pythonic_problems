@@ -1,0 +1,33 @@
+Move All Zeros To Start And Ones To End Of Array - 01 - Problem Statement
+
+1) Description:
+Implement the function move_zeros_to_start_ones_to_end(int[] arr, int n) which takes two arguments
+
+arr[] - array
+n     - size of the array
+
+Your task is to move (push) all zeros to start and all ones to end of given array
+
+2) Specification (I/O Format):
+
+i) Input Format:
+First line contains a single integer n
+Second line contains n comma-separated integers arr[]
+
+ii) Output Format:
+Display the array for the given input
+
+3) Example (Sample Test Cases):
+
+i) Sample Input 1:
+
+ii) Sample Output 1:
+
+
+i) Sample Input 2:
+
+ii) Sample Output 2:
+
+
+4) Definition:
+

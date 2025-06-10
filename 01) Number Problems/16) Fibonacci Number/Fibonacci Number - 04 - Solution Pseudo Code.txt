@@ -1,0 +1,42 @@
+//Fibonacci Number - 04 - Solution Pseudo Code
+
+//Logic 1
+BEGIN
+    INPUT N
+    INITIALIZE a = 0, b = 1, c = 0
+    IF (N < 0) THEN
+        OUTPUT "Not Fibonacci Number"
+    ELSE
+        WHILE (N > a) DO
+            COMPUTE c = a + b
+            ASSIGN a = b, b = c
+        END WHILE
+        IF (N == a) THEN
+            OUTPUT "Fibonacci Number"
+        ELSE
+            OUTPUT "Not Fibonacci Number"
+        END IF
+    END IF
+END
+
+
+//Logic 2
+BEGIN
+    IMPORT mathematical_library
+    INPUT N
+    IF (N < 0) THEN
+        OUTPUT "Not Fibonacci Number"
+    ELSE
+        COMPUTE equation_1 = 5*(mathematical_library.power_function(N, 2)) + 4
+        Compute equation_2 = 5*(mathematical_library.power_function(N, 2)) - 4
+        COMPUTE result_1 = mathematical_library.power_function(integer_function(mathematical_library.square_root_function(equation_1)), 2)
+        //COMPUTE result_1 = mathematical_library.power_function(integer_function(mathematical_library.power_function(equation_1, 0.5)), 2)
+        COMPUTE result_2 = mathematical_library.power_function(integer_function(mathematical_library.square_root_function(equation_1)), 2)
+        //COMPUTE result_2 = mathematical_library.power_function(integer_function(mathematical_library.power_function(equation_2, 0.5)), 2)
+        IF (result_1 == equation_1) OR (result_2 == equation_2) THEN
+            OUTPUT "Fibonacci Number"
+        ELSE
+            OUTPUT "Not Fibonacci Number"
+        END IF
+    END IF
+END

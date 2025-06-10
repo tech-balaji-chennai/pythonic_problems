@@ -1,0 +1,29 @@
+Fibonacci Series - 01 - Problem Statement
+
+1) Description:
+You will be given a positive integer 'num' (or) 'N'. Your task is to print the first 'N' terms of the Fibonacci Series.
+
+2) Specification (I/O Format):
+
+i) Input Format:
+A single integer num
+
+ii) Output Format:
+Display space-separated integers of given input
+
+3) Example (Sample Test Cases):
+
+i) Sample Input 1:
+ 4
+ii) Sample Output 1:
+ 0 1 1 2
+
+i) Sample Input 2:
+ 5
+ii) Sample Output 2:
+ 0 1 1 2 3
+
+4) Definition:
+Fibonacci series is the sequence of numbers where each number is the sum of the 2 preceding numbers.
+Fibonacci series from 0 to N (i.e.) fib(N) = 0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,...,N
+Using Formula: fib(N) = fib(N-1) + fib(N-2)

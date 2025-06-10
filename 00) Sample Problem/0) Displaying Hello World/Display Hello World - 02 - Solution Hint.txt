@@ -1,0 +1,3 @@
+Display Hello World - 02 - Solution Hint
+
+Use an output statement to display the string "Hello World"

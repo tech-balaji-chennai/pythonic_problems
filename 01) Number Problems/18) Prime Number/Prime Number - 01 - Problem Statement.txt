@@ -1,0 +1,34 @@
+Prime Number - 01 - Problem Statement
+
+1) Description:
+You will be given a number 'N'. Your task is to find whether given number is Prime Number Or Not (Primality Test).
+
+2) Specification (I/O Format):
+
+i) Input Format:
+A single integer num
+
+ii) Output Format:
+Display the string for the given input
+Display "Prime Number" if num is a prime number
+Display "Not Prime Number" if num is not a prime number
+
+3) Example (Sample Test Cases):
+
+i) Sample Input 1:
+ 5
+ii) Sample Output 1:
+ Prime Number
+
+i) Sample Input 2:
+ 4
+ii) Sample Output 2:
+ Not Prime Number
+
+4) Definition:
+A Prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+Factors of num = {1, N}, so it is a prime number.
+If not, then it is a composite number
+It belongs to the Prime series prime(N) = 2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,...,N (Using Formula: prime(N) = (N) not % (2 to N-1))
+Generate Prime series for given number and compare given number with Nth Prime number in the Prime series
+Using Trial Division Method: To check divisibility of any number from 2 to sqrt(N)

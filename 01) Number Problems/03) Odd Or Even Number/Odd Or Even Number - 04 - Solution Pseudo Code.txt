@@ -1,0 +1,22 @@
+//Odd Or Even Number - 04 - Solution Pseudo Code
+
+//Logic 1
+BEGIN
+    INPUT num
+    IF (num % 2 == 0) THEN
+        OUTPUT "Even"
+    ELSE
+        OUTPUT "Odd"
+    END IF
+END
+
+
+//Logic 2
+BEGIN
+    INPUT num
+    IF (num % 2 == 1) THEN
+        OUTPUT "Odd"
+    ELSE
+        OUTPUT "Even"
+    END IF
+END

@@ -1,0 +1,33 @@
+//Palindrome Number - 04 - Solution Pseudo Code
+
+//Logic 1
+BEGIN
+    INPUT num
+    INITIALIZE digit = 0, rev = 0
+    ASSIGN orig = num
+    WHILE (num > 0) DO
+        COMPUTE digit = num % 10
+        COMPUTE rev = (rev * 10) + digit
+        COMPUTE num = num / 10
+    END WHILE
+    IF (rev == orig) THEN
+        OUTPUT "Palindrome"
+    ELSE
+        OUTPUT "Not Palindrome"
+    END IF
+END
+
+
+//Logic 2
+BEGIN
+    INPUT num
+    INITIALIZE rev = ''
+    ASSIGN orig = num
+    //slicing the whole string in reverse direction
+    FECTH rev = orig[::-1]
+    IF (rev == orig) THEN
+        OUTPUT "Palindrome"
+    ELSE
+        OUTPUT "Not Palindrome"
+    END IF
+END

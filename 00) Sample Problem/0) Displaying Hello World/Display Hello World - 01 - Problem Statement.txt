@@ -1,0 +1,23 @@
+Display Hello World - 01 - Problem Statement
+
+1) Description:
+Your task is to display Hello World
+
+2) Specification (I/O Format):
+
+i) Input Format:
+No input
+
+ii) Output Format:
+Display the string "Hello World"
+
+3) Example (Sample Test Cases):
+
+i) Sample Input 1:
+ (No input)
+ii) Sample Output 1:
+ Hello World
+
+4) Definition:
+Hello World is the first code that can be written.
+Output function is used to display the given value to the output (screen).

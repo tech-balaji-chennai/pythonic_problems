@@ -1,0 +1,31 @@
+Happy Number - 01 - Problem Statement
+
+1) Description:
+You will be given a number 'num' (or) 'N'. Your task is to check whether 'N' is a happy number or not.
+
+2) Specification (I/O Format):
+
+i) Input Format:
+A single integer num
+
+ii) Output Format:
+Display the string for the given input
+Display "Happy Number" if num is a happy number
+Display "Not Happy Number" if num is not a happy number
+
+3) Example (Sample Test Cases):
+
+i) Sample Input 1:
+ 19
+ii) Sample Output 1:
+ Happy Number
+
+i) Sample Input 2:
+ 100
+ii) Sample Output 2:
+ Not Happy Number
+
+4) Definition:
+If a number leads to 1 after a sequence of steps, then it is a happy number.
+In each step, number is replaced by the sum of squares of its digit.
+If the same number occurs again (makes a loop in its sequence of steps), then it is not a happy number.

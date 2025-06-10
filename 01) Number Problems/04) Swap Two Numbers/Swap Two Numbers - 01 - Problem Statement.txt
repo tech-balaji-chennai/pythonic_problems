@@ -1,0 +1,27 @@
+Swap Two Numbers - 01 - Problem Statement
+
+1) Description:
+You will be given two numbers stored in variables 'a' and 'b'. Your task is to swap the values present and print them.
+
+2) Specification (I/O Format):
+
+i) Input Format:
+Two space-separated integers a and b
+
+ii) Output Format:
+Display the space-separated integer values of a and b
+
+3) Example (Sample Test Cases):
+
+i) Sample Input 1:
+ 4 5
+ii) Sample Output 1:
+ 5 4
+
+i) Sample Input 2:
+ -3 -2
+ii) Sample Output 2:
+ -2 -3
+
+4) Definition:
+Create a temporary variable 'temp'. First, assign value of a to temp. Second, assign value of b to a. Finally, assign value of temp to b.

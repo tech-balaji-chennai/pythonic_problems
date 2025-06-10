@@ -1,0 +1,29 @@
+Strong Number - 01 - Problem Statement
+
+1) Description:
+You will be given a number 'N'. Your task is to check whether 'N' is a strong number or not.
+
+2) Specification (I/O Format):
+
+i) Input Format:
+A single integer num
+
+ii) Output Format:
+Display the string for the given input
+Display "Strong Number" if num is a strong number
+Display "Not Strong Number" if num is not a strong number
+
+3) Example (Sample Test Cases):
+
+i) Sample Input 1:
+ 145
+ii) Sample Output 1:
+ Strong Number
+
+i) Sample Input 2:
+ 12
+ii) Sample Output 2:
+ Not Strong Number
+
+4) Definition:
+Strong number is a number where the sum of the factorial of its digit equals the original number.

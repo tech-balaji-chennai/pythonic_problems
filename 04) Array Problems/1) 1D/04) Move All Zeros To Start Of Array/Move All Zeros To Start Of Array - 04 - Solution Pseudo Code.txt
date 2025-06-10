@@ -1,0 +1,83 @@
+//Move All Zeros To Start Of Array - 04 - Solution Pseudo Code
+
+//Logic 1 - Naive Approach Using Temporary Array
+BEGIN
+    FUNCTION move_zeros_to_start_1(array_name, array_size) //move_zeros_to_start_1 since logic 1
+        IF ((array_size == 0) OR (array_size == 1)) THEN
+            RETURN array_name
+        END IF
+        //creating temporary array 'temp'
+        INITIALIZE temp_array = array
+        FOR (i = 0 TO array_size-1) DO
+            temp_array[i] = NULL
+        END FOR
+        //keeping track of count of zero and non-zero elements in original array
+        INITIALIZE count_zero = 0, count_non_zero = 0
+        FOR (i = 0 TO array_size-1) DO
+            //if array element is zero
+            IF (array_name[i] != 0) THEN
+                ASSIGN temp[count_non_zero] = arr[i]
+                INCREMENT count_non_zero = count_non_zero + 1
+            //if array element is not zero
+            ELSE:
+                INCREMENT count_zero = count_zero + 1
+            END IF
+        END FOR
+        //filling 1st count_zero number of positions in original array with zeros (0)
+        FOR (i = 0 TO count_zero-1) DO
+            array_name[i] = 0
+        END FOR
+        //copying from count_zero position to array_size (last) position of original array with all the elements from temp array
+        INITIALIZE j = 0
+        FOR (i = count_zero TO array_size-1) DO
+            ASSIGN array_name[i] = temp_array[j]
+            INCREMENT j = j+1
+        END FOR
+        RETURN array_name
+    END FUNCTION
+
+    FUNCTION main()
+        INPUT array_size
+        IF (array_size == 0) THEN
+            ASSIGN array_name = [] //empty array
+        ELSE
+            INPUT array_name //Enter comma-separated values
+        END IF
+        ASSIGN result = CALL move_zeros_to_start_1(array_name, array_size)
+        OUTPUT result
+    END FUNCTION
+END
+
+//Logic 2 - Expected Approach Using Two Traversal (Swapping)
+BEGIN
+    FUNCTION move_zeros_to_start_2(array_name, array_size) //move_zeros_to_start_2 since logic 2
+        IF ((array_size == 0) OR (array_size == 1)) THEN
+            RETURN array_name
+        END IF
+        //pointer that keeping track of last position of array_name
+        INITIALIZE end_index = -1
+        FOR (index = array_size - 1 TO 0) DO
+            IF (array_name[index] == 0) THEN
+                UPDATE end_index = index
+                BREAK
+            END IF
+        END FOR
+        FOR (index = end_index - 1 TO 0) DO
+            IF (array_name[index] != 0) THEN
+                SWAP array_name[index], array_name[end_index] = array_name[end_index], array_name[index]
+                DECREMENT end_index = end_index - 1
+            END IF
+        END FOR
+    RETURN array_name
+
+    FUNCTION main()
+        INPUT array_size
+        IF (array_size == 0) THEN
+            ASSIGN array_name = [] //empty array
+        ELSE
+            INPUT array_name //Enter comma-separated values
+        END IF
+        ASSIGN result = CALL move_zeros_to_start_2(array_name, array_size)
+        OUTPUT result
+    END FUNCTION
+END

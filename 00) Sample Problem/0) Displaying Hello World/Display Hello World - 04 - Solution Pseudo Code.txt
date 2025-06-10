@@ -1,0 +1,5 @@
+//Display Hello World - 04 - Solution Pseudo Code
+
+BEGIN
+    OUTPUT "Hello World"
+END

@@ -1,0 +1,11 @@
+//Fibonacci Series - 04 - Solution Pseudo Code
+
+BEGIN
+    INPUT N
+    INITIALIZE a = 0, b = 1, c = 0
+    FOR (i = 1 TO N) DO
+        OUTPUT a
+        COMPUTE c = a + b
+        ASSIGN a = b, b = c
+    END FOR
+END

@@ -1,0 +1,9 @@
+//Absolute Value Of A Number - 04 - Solution Pseudo Code
+
+BEGIN
+    INPUT num
+    IF (num < 0) THEN
+        ASSIGN num = -num
+    END IF
+    OUTPUT num
+END

@@ -1,0 +1,21 @@
+Display Hello World - 03 - Solution Approach
+
+1) Logic:
+Display the string "Hello World" to the output (screen) using a built-in output function (print(), System.out.println())
+
+2) Technique (Algorithm):
+Trivial Algorithm (Or) Printing Algorithm
+
+3) Data Structure:
+- (just prints string literal)
+
+4) Edge Cases And Constraints:
+- (since there is no input (or) logic that could vary, there are no edge cases to handle)
+
+5) Time And Space Complexity:
+
+i) Time Complexity:
+O(1)
+
+ii) Space Complexity:
+O(1)

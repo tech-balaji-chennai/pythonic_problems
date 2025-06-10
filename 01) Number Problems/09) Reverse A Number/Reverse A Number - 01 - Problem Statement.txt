@@ -1,0 +1,27 @@
+Reverse A Number - 01 - Problem Statement
+
+1) Description:
+You will be given a number 'num'. Your task is to find the reverse of 'num'.
+
+2) Specification (I/O Format):
+
+i) Input Format:
+A single integer num
+
+ii) Output Format:
+Display the integer for the given input
+
+3) Example (Sample Test Cases):
+
+i) Sample Input 1:
+ 451
+ii) Sample Output 1:
+ 154
+
+i) Sample Input 2:
+ 300
+ii) Sample Output 2:
+ 3
+
+4) Definition:
+Reverse Number (Or) Mirror Number 'rev' is a number obtained by reversing the digits of original number 'num' (from right to left) (changing its order)

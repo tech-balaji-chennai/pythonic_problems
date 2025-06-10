@@ -1,0 +1,29 @@
+Neon Number - 01 - Problem Statement
+
+1) Description:
+You will be given a number 'N'. Your task is to check whether 'N' is a neon number or not.
+
+2) Specification (I/O Format):
+
+i) Input Format:
+A single integer num
+
+ii) Output Format:
+Display the string for the given input
+Display "Neon Number" if num is a neon number
+Display "Not Neon Number" if num is not a neon number
+
+3) Example (Sample Test Cases):
+
+i) Sample Input 1:
+ 9
+ii) Sample Output 1:
+ Neon Number
+
+i) Sample Input 2:
+ 49
+ii) Sample Output 2:
+ Not Neon Number
+
+4) Definition:
+Neon number is a number where the sum of the digits of its square equals the original number.

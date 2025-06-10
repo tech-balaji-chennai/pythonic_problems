@@ -1,0 +1,71 @@
+//Rotate An Array By K Positions - 04 - Solution Pseudo Code
+
+//Logic 1 - Normal Method
+BEGIN
+    FUNCTION right_rotate(array_name, array_size)
+        ASSIGN temp = array_name[array_size - 1]
+        FOR (index = array_size-1 TO 1 STEP -1) DO //FOR (index = 1 TO array_size-1 STEP 1)) REVERSE DO
+            array_name[index] = array_name[index-1]
+        END FOR
+        ASSIGN array_name[0] = temp
+    END FUNCTION
+
+    FUNCTION array_rotate_1(array_name, array_size, rotation_count) //array_rotate_1 since logic 1
+        IF ((array_size == 0) OR (array_size == 1)) THEN
+            RETURN array_name
+        END IF
+        FOR (i = 1 TO rotation_count+1) DO
+            CALL right_rotate(array_name, array_size)
+        END FOR
+    END FUNCTION
+
+    FUNCTION main()
+        INPUT array_size
+        IF (array_size == 0) THEN
+            ASSIGN array_name = [] //empty array
+        ELSE
+            INPUT array_name //Enter comma-separated values
+        END IF
+        INPUT rotation_count
+        UPDATE rotation_count = rotation_count % array_size //To have the rotation count between 0 to n-1
+        ASSIGN result = CALL array_rotate_1(array_name, array_size, rotation_count)
+        OUTPUT result
+    END FUNCTION
+END
+
+
+//Logic 2 - Reversal Method
+BEGIN
+    FUNCTION reverse(array_name, start_index, end_index)
+        WHILE (start_index < end_index) DO
+            ASSIGN temp = array_name[start_index]
+            ASSIGN array_name[start_index] = array_name[end_index]
+            INCREMENT start = start + 1
+            ASSIGN array_name[end_index] = temp
+            DECREMENT end = end - 1
+        END WHILE
+    END FUNCTION
+
+    FUNCTION array_rotate_2(array_name, array_size, rotation_count) //array_rotate_2 since logic 2
+        IF ((array_size == 0) OR (array_size == 1)) THEN
+            RETURN array_name
+        END IF
+        CALL reverse(array_name, 0, array_size - rotation_count - 1)
+        CALL reverse(array_name, array_size - rotation_count, array_size - 1)
+        CALL reverse(array_name, 0, array_size - 1)
+        RETURN array_name
+    END FUNCTION
+
+    FUNCTION main()
+        INPUT array_size
+        IF (array_size == 0) THEN
+            ASSIGN array_name = [] //empty array
+        ELSE
+            INPUT array_name //Enter comma-separated values
+        END IF
+        INPUT rotation_count
+        UPDATE rotation_count = rotation_count % array_size //To have the rotation count between 0 to n-1
+        ASSIGN result = CALL array_rotate_2(array_name, array_size, rotation_count)
+        OUTPUT result
+    END FUNCTION
+END
