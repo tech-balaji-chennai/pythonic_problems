@@ -1,2 +1,3 @@
 Absolute Value Of A Number - 02 - Solution Hint
 
+Try to convert the given number to positive if it os negative.

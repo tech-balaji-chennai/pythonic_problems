@@ -20,4 +20,4 @@ ii) Sample Output 1:
 
 4) Definition:
 Hello World is the first code that can be written.
-Output function is used to display the given value to the output (screen).
+Output statement is used to display the given value to the output (screen).

@@ -1,12 +1,16 @@
 //Find Positive Or Negative Number - 04 - Solution Pseudo Code
 
 BEGIN
-    INPUT num
-    IF (num > 0) THEN
-        OUTPUT "Positive"
-    ELSE IF (num < 0) THEN
-        OUTPUT "Negative"
-    ELSE
-        OUTPUT "Neither Positive Nor Negative"
-    END IF
+    TRY DO
+        INPUT num TYPE integer
+        IF (num > 0) THEN
+            OUTPUT "Positive"
+        ELSE IF (num < 0) THEN
+            OUTPUT "Negative"
+        ELSE
+            OUTPUT "Neither Positive Nor Negative"
+        END IF
+    EXCEPT ValueError AS e DO
+        OUTPUT "Invalid input. Please enter an integer value"
+
 END

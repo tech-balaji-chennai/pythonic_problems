@@ -1,7 +1,7 @@
 Display Hello World - 03 - Solution Approach
 
 1) Logic:
-Display the string "Hello World" to the output (screen) using a built-in output function (print(), System.out.println())
+Display the string "Hello World" to the output (screen) using a built-in output statement (print(), System.out.println(), document.Write(), printf(), cout<<)
 
 2) Technique (Algorithm):
 Trivial Algorithm (Or) Printing Algorithm
